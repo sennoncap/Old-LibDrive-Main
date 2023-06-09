@@ -11,6 +11,8 @@ RUN apt-get update -y && \
     apt-get install -y --no-install-recommends python3.9-dev && \
     apt-get install -y --no-install-recommends python3-pip && \
     apt-get install -y curl
+    apt-get install wget
+
 
 RUN curl -O https://raw.githubusercontent.com/libDrive/server/main/requirements.txt && \
     pip3 install -r requirements.txt --no-cache-dir
