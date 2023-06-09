@@ -2,7 +2,7 @@
 
 cd /usr/src/app
 
-pip install wget
+pip3 install wget
 
 apt install unzip -y
 
