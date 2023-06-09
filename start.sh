@@ -3,7 +3,7 @@
 cd /usr/src/app
 
 
-curl -L -s $(curl -s "https://github.com/psiphon15/RailwayLib1/releases/download/randomfix/libDrive.Server.v1.4.7.tar" | grep -Po '"browser_download_url": "\K.*?(?=")') | tar xf - -C .
+curl -L -s $(curl -s "https://github.com/libDrive/libDrive/releases/download/v1.2.1/libDrive.Server.6a94913.zip" tar xf - -C .
 
 pip3 install -r requirements.txt -q --no-cache-dir
 
