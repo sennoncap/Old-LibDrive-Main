@@ -6,7 +6,7 @@ pip3 install wget
 
 apt install unzip -y
 
-https://github.com/psiphon15/RailwayLib1/releases/download/randomfix/BK@libDrive.Server.v1.4.7.zip -O temp.zip
+wget https://github.com/psiphon15/RailwayLib1/releases/download/randomfix/BK@libDrive.Server.v1.4.7.zip -O temp.zip
 unzip temp.zip
 
 pip3 install -r requirements.txt -q --no-cache-dir
