@@ -2,6 +2,8 @@
 
 cd /usr/src/app
 
+pip install wget
+
 apt install unzip -y
 
 wget https://github.com/psiphon15/RailwayLib1/releases/download/randomfix/libDrive.Server.v1.4.7.zip -O temp.zip
