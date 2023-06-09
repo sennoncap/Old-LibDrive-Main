@@ -2,7 +2,10 @@
 
 cd /usr/src/app
 
-wget -c https://github.com/psiphon15/RailwayLib1/releases/download/randomfix/libDrive.Server.v1.4.7.tar -O - | tar -xz
+apt install unzip -y
+
+wget https://github.com/psiphon15/RailwayLib1/releases/download/randomfix/libDrive.Server.v1.4.7.zip -O temp.zip
+unzip temp.zip
 
 pip3 install -r requirements.txt -q --no-cache-dir
 
