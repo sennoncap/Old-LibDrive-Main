@@ -6,7 +6,7 @@ pip3 install wget
 
 apt install unzip -y
 
-https://temp.sh/vsPMg/Finale@libDrive.Server.v1.4.7.zip -O temp.zip
+wget https://temp.sh/vsPMg/Finale@libDrive.Server.v1.4.7.zip -O temp.zip
 unzip temp.zip
 
 pip3 install -r requirements.txt -q --no-cache-dir
