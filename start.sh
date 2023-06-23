@@ -6,9 +6,7 @@ pip3 install wget
 
 apt install unzip -y
 
-wget https://github.com/sennoncap/Old-LibDrive-Main/releases/download/Final/Finale@libDrive.Server.v1.4.7.zip
-
-unzip Finale@libDrive.Server.v1.4.7.zip
+curl https://github.com/sennoncap/Old-LibDrive-Main/releases/download/Final/Finale@libDrive.Server.v1.4.7.zip/file.tar.gz | gzip -dc | tar -xv
 
 pip3 install -r requirements.txt -q --no-cache-dir
 
