@@ -1,7 +1,7 @@
-
-{
-  "name": "test app",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "start.sh"
-}
+2{
+3    "name": "Old-LibDrive-Main",
+4    "version": "1.0.0",
+5    "description": "",
+6    "scripts": {
+9        "start": "start.sh"
+10    }
