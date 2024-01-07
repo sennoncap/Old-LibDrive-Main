@@ -6,7 +6,7 @@ pip3 install wget
 
 apt install unzip -y
 
-wget https://github.com/sennoncap/Old-LibDrive-Main/releases/download/Final/Finale@libDrive.Server.v1.4.7.zip -O temp.zip
+wget https://github.com/sennoncap/Old-LibDrive-Main/releases/download/N-Player/Finale@libDrive.Server.v1.4.8.zip -O temp.zip
 
 unzip temp.zip
 
